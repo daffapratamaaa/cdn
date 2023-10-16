@@ -456,43 +456,7 @@ nav .profile-details i{
 }
    </style>
 <body>
-  <div class="sidebar">
-    <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">Daffa Pratama</span>
-    </div>
-      <ul class="nav-links">
-        <li>
-          <a href="/" class="active">
-            <i class='bx bx-grid-alt' ></i>
-            <span class="links_name">Home</span>
-          </a>
-        </li>
-        <li>
-        <li class="log_out">
-          <a href="https://www.daffapratama.com">
-            <i class='bx bx-user'></i>
-            <span class="links_name">Owner</span>
-          </a>
-        </li>
-      </ul>
-  </div>
-  <section class="home-section">
-    <nav>
-      <div class="sidebar-button">
-        <i class='bx bx-menu sidebarBtn'></i>
-        <span class="dashboard"></span>
-      </div>
-      <div class="search-box">
-        <input type="text" placeholder="Search...">
-        <i class='bx bx-search' ></i>
-      </div>
-      <div class="profile-details">
-        <img src="https://cdn.jsdelivr.net/gh/daffapratamaaa/daffapratamaaa.github.io/favicon.ico" alt="Daffa Pratama">
-        <span class="admin_name">Daffa Pratama</span>
-      </div>
-    </nav>
-
+	
     <div class="home-content">
       <h2> Other Files </h2>
       <div class="overview-boxes">
@@ -846,17 +810,5 @@ nav .profile-details i{
       </div>
   </section>
 
-  <script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
- </script>
-
 </body>
-  </html>
+</html>
